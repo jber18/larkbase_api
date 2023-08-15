@@ -7,8 +7,8 @@ import { GetBaseRecordsQueryModel } from './src/model/base_get_record_request_mo
 import { GetBaseRecords } from './src/get_base_records';
 import { RefreshTokenId } from './src/refresh_token_id';
 
-const app_id: string = "cli_a2b9485e1bf8900a";
-const app_secret: string = "h80LqDwYzq4pbFnBK69kie5Fmw64kRFT"
+const app_id: string = "<app_id>";
+const app_secret: string = "<app_secret>"
 const getTenantAccessToken = new GetTenantAccessToken(app_id, app_secret);
 
 
